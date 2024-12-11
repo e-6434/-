@@ -1,0 +1,156 @@
+.main {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-content: center;
+  flex-wrap: nowrap;
+  align-items: center;
+  width: 100%;
+  background-color: #d3d2d2;
+  margin-top: 12px;
+}
+
+.left {
+  display: flex;
+  background: white;
+  width: 100%;
+  flex-shrink: 1;
+  height: 500px;
+  border: 2px  solid;
+  background-color: #ffffff;
+  border-radius: 16px;
+  
+
+}
+
+
+
+.right {
+  display: flex;
+  background-color: #ffffff;
+  width: 100%;
+  height: 500px;
+  flex-shrink: 5;
+  flex-direction: column;
+  border: 2px  solid;
+  margin-left: 5px;
+  justify-content: flex-start;
+  border-radius: 16px;
+}
+.right span{
+padding-right: 30%;
+}
+
+.right .top {
+  background-color: rgb(255, 255, 255);
+  width: 100%;
+  height: 100%;
+  flex-grow: 1;
+  padding-top: 0px;
+  margin-top: 2px; 
+  border-radius: 16px;
+}
+
+.right .top .card {
+  background-color: rgba(255, 255, 255, 0);
+  box-shadow: 0 4px 8px 0 rgba(223, 32, 32, 0.2);
+  max-width: 300px;
+  height: auto;
+  text-align: center;
+  border-radius: 16px;
+ 
+
+}
+
+
+.right .top .card img {
+  border-radius: 16px;
+}
+
+.right .top .card h4 {
+  text-align: right;
+  margin-top: 6px;
+}
+
+.right .top .title {
+  color: rgb(8, 6, 6);
+  font-size: 18px;
+}
+
+/* .right .top button {
+  border: none;
+  outline: 0;
+  display: inline-block;
+  padding: 8px;
+  color: white;
+  background-color: #060606;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+  font-size: 18px;
+} */
+
+.right .top a {
+  text-decoration: none;
+  font-size: 50px;
+  color: black;
+}
+
+.right .top button:hover,
+a:hover {
+  opacity: 0.7;
+}
+
+
+
+.right .down {
+  background: rgb(255, 255, 255);
+  width: 100%;
+  flex-grow: 3;
+
+}
+
+
+.sidenav {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  right: 0;
+  background-color: #111;
+  overflow-x: hidden;
+  transition: 0.5s;
+  padding-top: 60px;
+}
+
+.sidenav a {
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 50px;
+  color: #818181;
+  display: block;
+  transition: 0.3s;
+}
+
+.sidenav a:hover {
+  color: #f1f1f1;
+}
+
+.sidenav .closebtn {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 50px;
+  margin-left: 50px;
+}
+
+@media screen and (max-height: 450px) {
+  .sidenav {
+    padding-top: 50px;
+  }
+
+  .sidenav a {
+    font-size: 100px;
+  }
+}

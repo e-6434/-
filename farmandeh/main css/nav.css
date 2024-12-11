@@ -1,0 +1,129 @@
+@font-face {
+  font-family: tavana;
+  src: url(WasmFontBold.ttf);
+    
+}
+ @font-face {
+  font-family: body;
+  src: url(Vazir.ttf);
+    
+} 
+
+.selector {
+  font-family: 'نام-فونت', سایر-فونت‌ها, sans-serif;
+}
+
+/* Reset default styles */
+* {
+  font-family: body !important;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  direction: rtl;
+  font-size: 18px !important;
+  
+}
+
+/* Global styles */
+body {
+  font-family: body;
+  font-size: 18px;
+  line-height: 1.5;
+  background-color: #d3d2d2;
+}
+
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+/* Form styles */
+
+#title {
+  font-size: 100px !important;
+  margin-bottom: 10px;
+  text-align: center;
+  font-family: tavana !important;
+  color:black;
+}
+
+#description {
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+fieldset {
+  border: none;
+  margin-bottom: 5%;
+  margin-left: 5%;
+  margin-right: 5%;
+}
+
+label {
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="number"],
+select,
+textarea {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 16px;
+  margin-bottom: 10px;
+  direction: ltr;
+
+}
+
+select {
+  appearance: none;
+  padding-right: 30px;
+
+}
+
+input[type="checkbox"] {
+  margin-right: 10px;
+}
+
+button[type="submit"] {
+  background-color: #333;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  font-size: 25px;
+  cursor: pointer;
+  display: block;
+  margin: 0 auto;
+}
+
+button[type="submit"]:hover {
+  background-color: navy;
+
+}
+
+.tavana {
+  background-color: #d3d2d2;
+  padding-top: 1%;
+  padding-bottom: 1%;
+  border-radius: 100px;
+  margin-top: 1%;
+}
+
+/* Media queries */
+@media screen and (max-width: 768px) {
+  .container {
+    max-width: 500px;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .container {
+    max-width: 300px;
+  }
+}

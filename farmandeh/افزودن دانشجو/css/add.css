@@ -1,0 +1,37 @@
+
+input[type=text], select, textarea {
+  width: 100%;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 8px;
+  resize: vertical;
+  direction: rtl;
+  font-size: 16px;
+  
+}
+
+button {
+  background-color: #04AA6D;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  align-items: center;
+  direction: rtl;
+}
+
+button:hover {
+  background-color: #3d3d3e;
+}
+
+.container {
+  border-radius: 8px;
+  background-color: #f2f2f2;
+  padding: 10px;
+  direction: rtl;
+}
+
